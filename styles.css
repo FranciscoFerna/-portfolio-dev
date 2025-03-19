@@ -44,3 +44,66 @@ a:hover {
   list-style: none;
   margin: 0px 20px;
 }
+
+/* Hero Section */
+.hero-section {
+  width: 625px;
+  font-size: 32px;
+  padding: 80px 20px;
+}
+
+.hero-card {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.hero-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-greeting {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.photo-container {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #e0e0e0;
+  object-fit: cover; /* object-fit: cover; asegura que una imagen ocupe todo el espacio de su contenedor sin distorsionarse, recortando los bordes si es necesario. */
+  vertical-align: middle; /* vertical-align: middle; alinea verticalmente un elemento en relación con su contenedor, colocándolo en el centro de la línea de texto circundante. */
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 32px;
+  padding: 8px 16px;
+  margin-top: 20px;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  background-color: #4ade80;
+  border-radius: 50%;
+}
+
+.status-text {
+  font-size: 14px;
+  font-weight: 500;
+}
